@@ -128,11 +128,11 @@ footer p {
 /* Media Queries for Responsiveness */
 
 /* Mobile screens */
-@media (max-width: 452px) {
+@media (max-width: 360px) {
 
     body {
-        padding: 24px;
-        margin: auto;
+        padding: 0;
+        margin: 0;
     }
 
 }
