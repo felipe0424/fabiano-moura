@@ -63,14 +63,14 @@ p {
     background-image: url(../assets/images/CONTATO-BG.png);
     background-repeat: no-repeat;
     background-size: fill;
-    height: 236px;
+    height: 220px;
     width: 472px;
     border-radius: 20px;
     display: flex;
 }
 
 .agendar div {
-    max-width: 236px;
+    max-width: 220px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -82,7 +82,7 @@ p {
     background-image: url(../assets/images/LOCALIZAÇÃO-BG.png);
     background-repeat: no-repeat;
     background-size: fill;
-    height: 236px;
+    height: 220px;
     width: 472px;
     border-radius: 20px;
     display: flex;
@@ -94,26 +94,26 @@ p {
     flex-direction: column;
     gap: 16px;
     margin-left: 35px;
-    margin-top: 42px;
+    margin-top: 32px;
 }
 
 .site {
     background-image: url(../assets/images/SITE-BG.png);
     background-repeat: no-repeat;
     background-size: fill;
-    height: 236px;
+    height: 220px;
     width: 472px;
     border-radius: 20px;
     display: flex;
 }
 
 .site div {
-    max-width: 236px;
+    max-width: 220px;
     display: flex;
     flex-direction: column;
     gap: 16px;
     margin-left: 35px;
-    margin-top: 42px;
+    margin-top: 32px;
 }
 
 footer {
@@ -135,19 +135,20 @@ footer p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 360px;
+        max-width: 360px;
         margin: auto;
     }
     
     header {
         margin: auto;
+        margin-top: 48px;
         padding-bottom: 24px;
     }
 
     .agendar, .localizacao, .site {
-        width: 360px;
-        height: auto;
-        height: auto;
+        width: 355px;
+        height: 220px;
+        margin: auto;
     }
 
     main {
