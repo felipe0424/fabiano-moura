@@ -1,2 +1,96 @@
-@import url(global.css);
-@import url(links.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+:root {
+--bg-royal-900: #010B24;
+--bg-royal-700: #000E31;
+--bg-royal-500: #071A4C;
+--brand-900: #957E35;
+--brand-800: #AC9859;
+--brand-700: #D5C38A;
+--brand-500: #CCBC6F;
+--brand-400: #E4D694;
+--brand-300: #F3E8B9;
+--white: #FFFFFF;
+--black: #00040F;
+--gray: #989898;
+
+--font-family: "Barlow Condensed", sans-serif;
+--h1: 800 24px/140% var(--font-family);
+--h2: 600 16px/140% var(--font-family);
+--h3: 500 14px/140% var(--font-family);
+--text: 400 16px/140% var(--font-family);
+--text-span: 400 14px/145% var(--font-family);
+--text-p: 300 14px/160% var(--font-family);
+}
+
+body {
+background-image: url(../assets/images/BG.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+body {
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+margin: auto;
+}
+
+header {
+margin: 36px;
+}
+
+.agendar {
+background-image: url(../assets/images/CONTATO-BG.png);
+background-repeat: no-repeat;
+background-size:fill;
+height: 236px;
+width: 472px;
+border-radius: 20px;
+}
+
+.agendar div {
+max-width: 236px;
+display: flex;
+flex-direction: column;
+gap: 16px;
+position: relative;
+left: 215px;
+padding: 16px;
+
+h1 {
+    font: var(--h1);
+    color: var(--brand-700);
+}
+
+p {
+    font: var(--text);
+    color: var(--brand-700);
+}
+}
+
+.contact {
+padding-top: 48px;
+}
+
+.local {
+padding-top: 24px;
+}
+
+.site {
+padding-top: 24px;
+}
+
+footer {
+margin: 36px;
+}
+
+footer p {
+font: var(--text);
+color: var(--brand-300);
+}
