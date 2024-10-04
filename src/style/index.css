@@ -145,7 +145,8 @@ footer p {
     }
 
     .agendar, .localizacao, .site {
-        width: 360px; /* Ajusta para caber melhor em telas pequenas */
+        width: 360px;
+        height: auto;
         height: auto;
     }
 
