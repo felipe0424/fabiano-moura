@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+}
+
+header {
+  margin: 36px;
+}
+
+.agendar {
+  background-image: url(/src/assets/images/CONTATO-BG.png);
+  background-repeat: no-repeat;
+  background-size:fill;
+  height: 236px;
+  width: 472px;
+  border-radius: 20px;
+}
+
+.agendar div {
+  max-width: 236px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  left: 215px;
+  padding: 16px;
+
+  h1 {
+    font: var(--h1);
+    color: var(--brand-700);
+  }
+
+  p {
+    font: var(--text);
+    color: var(--brand-700);
+  }
+}
+
+.contact {
+  padding-top: 48px;
+}
+
+.local {
+  padding-top: 24px;
+}
+
+.site {
+  padding-top: 24px;
+}
+
+footer {
+  margin: 36px;
+}
+
+footer p {
+  font: var(--text);
+  color: var(--brand-300);
+}
