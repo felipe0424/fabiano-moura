@@ -28,7 +28,7 @@
 }
 
 body {
-  background-image: url(/src/assets/images/BG.jpg);
+  background-image: url(../assets/images/BG.jpg);
   background-repeat: no-repeat;
   background-size:cover;
 }
