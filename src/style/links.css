@@ -11,7 +11,7 @@ header {
 }
 
 .agendar {
-  background-image: url(/src/assets/images/CONTATO-BG.png);
+  background-image: url(src/assets/images/CONTATO-BG.png);
   background-repeat: no-repeat;
   background-size:fill;
   height: 236px;
