@@ -149,7 +149,8 @@ footer p {
     }
     
     header {
-        margin: 36px;
+        margin: auto;
+        padding-bottom: 24px;
     }
     
     main {
@@ -158,6 +159,11 @@ footer p {
         align-items: center;
         margin: auto;
         gap: 24px;
+    }
+
+    footer {
+        margin: auto;
+        padding: 24px;
     }
 
 
