@@ -130,21 +130,12 @@ footer p {
 /* Mobile screens */
 @media (max-width: 436px) {
 
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
     body {
-        background-image: url(../assets/images/BG.jpg);
-        background-repeat: no-repeat;
         background-size: cover;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
-        scale: 0.96;
+        width: 360px;
         margin: auto;
     }
     
@@ -152,19 +143,19 @@ footer p {
         margin: auto;
         padding-bottom: 24px;
     }
-    
+
+    .agendar, .localizacao, .site {
+        width: 360px; /* Ajusta para caber melhor em telas pequenas */
+        height: auto;
+    }
+
     main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-        gap: 24px;
+        padding: 8px;
+        gap: 16px;
     }
 
     footer {
         margin: auto;
-        padding: 24px;
+        padding: 16px;
     }
-
-
 }
