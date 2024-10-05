@@ -157,15 +157,15 @@ body {
     margin: auto;
 }
 header {
-  margin: 16px;
+  margin: 8px;
   padding: 4px;
 
 }
 
 header img {
-    margin: 16px;
-    padding: 8px;
-    width: 125px;
+    margin: 8px;
+    padding: 4px;
+    width: 110px;
 }
 
 main {
@@ -187,19 +187,19 @@ p {
 }
 
 .agendar {
-  height: 149px;
-  width: 297px;
+  height: 175px;
+  width: 350px;
   border-radius: 20px;
 }
 .localizacao {
-  height: 149px;
-  width: 297px;
+  height: 175px;
+  width: 350px;
   border-radius: 20px;
 }
 
 .site {
-  height: 149px;
-  width: 297px;
+  height: 175px;
+  width: 350px;
   border-radius: 20px;
 }
 
@@ -213,8 +213,8 @@ p {
     max-width: 140px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    margin-left: 140px;
+    gap: 10px;
+    margin-left: 170px;
     padding-top: 20px;
 }
 
@@ -225,10 +225,10 @@ p {
 }
 
 .localizacao div {
-    max-width: 236px;
+    max-width: 150px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 10px;
     margin-left: 35px;
     margin-top: 32px;
 }
@@ -240,10 +240,10 @@ p {
 }
 
 .site div {
-    max-width: 220px;
+    max-width: 150px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 10px;
     margin-left: 35px;
     margin-top: 32px;
 }
