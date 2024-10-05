@@ -172,7 +172,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
     gap: 16px;
 }
 
@@ -186,19 +185,30 @@ p {
     color: var(--brand-700);
 }
 
+button {
+  background-color: var(--brand-400);
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  width: 140px;
+  color: var(--bg-royal-500);
+  font-size: 12px;
+  cursor: pointer;
+}
+
 .agendar {
-  height: 175px;
+  height: auto;
   width: 350px;
   border-radius: 20px;
 }
 .localizacao {
-  height: 175px;
+  height: auto;
   width: 350px;
   border-radius: 20px;
 }
 
 .site {
-  height: 175px;
+  height: auto;
   width: 350px;
   border-radius: 20px;
 }
@@ -209,13 +219,14 @@ p {
     background-size: cover;
 }
 
-.agendar div {
-    max-width: 140px;
+.agendar > div {
+    max-width: 150px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    height: 100%;
     margin-left: 170px;
-    padding-top: 20px;
+    margin-bottom: 24px;
 }
 
 .localizacao {
@@ -224,13 +235,13 @@ p {
     background-size: cover;
 }
 
-.localizacao div {
+.localizacao > div {
     max-width: 150px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-left: 35px;
-    margin-top: 32px;
+    margin-bottom: 24px;
 }
 
 .site {
@@ -239,13 +250,13 @@ p {
     background-size: cover;
 }
 
-.site div {
+.site > div {
     max-width: 150px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-left: 35px;
-    margin-top: 32px;
+    margin-bottom: 24px;
 }
 
 footer {
