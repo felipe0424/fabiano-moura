@@ -66,6 +66,8 @@ p {
 
 button {
   background-color: var(--brand-400);
+  -webkit-border-radius: 8px; 
+  -moz-border-radius: 8px;
   border-radius: 8px;
   border: none;
   padding: 10px 20px;
@@ -74,6 +76,7 @@ button {
   font-size: 12px;
   cursor: pointer;
 }
+
 
 .agendar {
     background-image: url(../assets/images/CONTATO-BG.png);
